@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Мои достижения</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #0066cc;
+            margin-bottom: 30px;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        .award {
+            text-align: center;
+            max-width: 280px;
+        }
+
+        .award img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .award img:hover {
+            transform: scale(1.03);
+        }
+
+        .award figcaption {
+            margin-top: 10px;
+            font-size: 15px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>Мои достижения</h1>
+
+    <div class="gallery">
+        <figure class="award">
+            <img src="gramota1.jpg" alt="Грамота за участие в соревнованиях">
+            <figcaption>Призер соревнований РЦСФО "Кубок вызова Локомотив" г.Нальчик (2022)</figcaption>
+        </figure>
+
+        <figure class="award">
+            <img src="gramota3.jpg" alt="Грамота за участие в соревнованиях">
+            <figcaption>Грамота за победу на Первенстве Белгородской области (2024)</figcaption>
+        </figure>
+
+        <figure class="award">
+            <img src="G.jpg" alt="Благодарственное письмо">
+            <figcaption>Грамота за победу на соревнованиях ОГ ФСО "Юность России" отбор на ЕВРОПУ (2022)</figcaption>
+        </figure>
+    </div>
+</body>
+</html>

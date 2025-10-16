@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — Skopin Vladislav</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: linear-gradient(135deg, rgb(255, 255, 255) 0%, #46aa9d 30%, #008b89 100%);
+            color: #fff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 40px 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(10px);
+            border-radius: 24px;
+            padding: 40px;
+            max-width: 800px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.4rem;
+            color: #01fbffb3;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .contact-section {
+            margin-bottom: 30px;
+        }
+
+        .contact-section h2 {
+            font-size: 1.4rem;
+            margin-bottom: 16px;
+            color: #ffb3b3;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-item {
+            background: rgba(0, 0, 0, 0.25);
+            padding: 14px 20px;
+            border-radius: 14px;
+            margin-bottom: 12px;
+            font-size: 1.1rem;
+            transition: background 0.3s ease;
+        }
+
+        .contact-item:hover {
+            background: rgba(0, 0, 0, 0.35);
+        }
+
+        a {
+            color: #ff9999;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .social-links {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+            margin-top: 10px;
+        }
+
+        .social-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 12px;
+            color: #ffcccc;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+
+        .social-link:hover {
+            background: rgba(255, 102, 102, 0.3);
+            transform: translateY(-2px);
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 30px;
+            color: #fbf9f9;
+            text-decoration: none;
+            font-weight: 600;
+            padding: 10px 20px;
+            border: 1px solid #66e0ff;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            background: rgba(255, 102, 102, 0.2);
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            .contact-section h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📬 Мои контакты</h1>
+
+        <div class="contact-section">
+            <h2>📧 Электронная почта</h2>
+            <div class="contact-item">
+                <a href="mailto:vladislav.skopin@example.com">20.vlados@mail.ru</a>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2>📱 Телефон / Мессенджеры</h2>
+            <div class="contact-item">+7-(951)-769-76-80</div>
+            <div class="contact-item">
+                <a href="https://t.me/Aramhick" target="_blank">Telegram Владислава</a>
+            </div>
+            <div class="contact-item">
+                <a href="https://wa.me/79517697680" target="_blank">WhatsApp</a>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2>🌐 Социальные сети</h2>
+            <div class="social-links">
+                <a href="https://vk.com/skopinvlad" class="social-link" target="_blank">ВКонтакте</a>
+                <a href="https://github.com/20vlados-tech" class="social-link" target="_blank">GitHub</a>
+                <a href="https://t.me/+IiNi7UfQwRI5OTNi" class="social-link" target="_blank">Telegram-канал</a>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h2>📍 Местоположение</h2>
+            <div class="contact-item">Россия, г. Воронеж</div>
+        </div>
+
+        <div class="contact-section">
+            <h2>✍️ Обратная связь</h2>
+            <div class="contact-item">
+                Напишите мне — я отвечаю в течение 24 часов!
+            </div>
+        </div>
+
+        <a href="index.html" class="back-link">← Вернуться на главную</a>
+    </div>
+</body>
+</html>
